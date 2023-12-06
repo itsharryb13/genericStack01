@@ -1,4 +1,4 @@
-This program provides a generic implementation of a stack data structure named `GenStack`. A stack is a last-in, first-out (LIFO) data structure, and this generic implementation allows for the storage of elements of any data type. Here's an explanation of the functions and their purposes:
+
 
 1. **Constructor:**
    - The class has a default constructor, but it's not explicitly defined in the code. It initializes the instance variables:
@@ -43,6 +43,3 @@ This program provides a generic implementation of a stack data structure named `
    - **Implementation:**
      - Returns the value of the `size` variable.
 
-**Note:**
-   - The implementation uses an `ArrayList` to represent the stack, which dynamically resizes as elements are added or removed.
-   - The code does not handle synchronization for multi-threaded scenarios. If used in a multi-threaded environment, additional synchronization mechanisms may be required.
