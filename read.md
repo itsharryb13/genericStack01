@@ -43,9 +43,6 @@ This program provides a generic implementation of a stack data structure named `
    - **Implementation:**
      - Returns the value of the `size` variable.
 
-**Authors Section:**
-   - The code includes a section indicating the authors of the implementation.
-
 **Note:**
    - The implementation uses an `ArrayList` to represent the stack, which dynamically resizes as elements are added or removed.
    - The code does not handle synchronization for multi-threaded scenarios. If used in a multi-threaded environment, additional synchronization mechanisms may be required.
